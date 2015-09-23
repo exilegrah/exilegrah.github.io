@@ -56,5 +56,19 @@
       background-size: 50px 50px;
       float: right;
       margin: 0 0 1em 1em;
+    
     }
+    
+    .resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
+    
+    
     
