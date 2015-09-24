@@ -3,7 +3,7 @@
         border-style: solid;
         border-width: 5px;
         padding:15px;
-        border-radius: 35px;
+        border-radius: 25px;
         
         width: 950px ;
         margin-left: auto ;
@@ -29,9 +29,10 @@
        
 		border-left-style: solid;
 		border-left-color: black;
-
-		
-		width: 700px;
+		/*
+		    The top half edits the style of the border while the lower half edits the sizing of the border
+		*/
+		width: 600px;
         margin: -5px auto;
         padding: 15px;
 		
@@ -45,29 +46,30 @@
         top: 30px;
         left: px;
         width: 200px;
-
-
     }
     
     
     #pro_pic
     {
-    
       background-size: 50px 50px;
       float: right;
       margin: 0 0 1em 1em;
-    
     }
     
-    .resize {
-    width: 400px;
-    height: auto;
-}
+    /*
+        The resize was taken from a website to assist in making my Profile picture a satisfactorily  size.
+    */
+    .resize 
+    {
+        width: 400px;
+        height: auto;
+    }
 
-.resize {
-    width: 300px;
-    height: auto;
-}
+    .resize 
+    {
+        width: 300px;
+        height: auto;
+    }
 
     
     
